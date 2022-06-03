@@ -1,0 +1,25 @@
+html	{ 
+    overflow: scroll; 
+}
+body	{ 
+    overflow: scroll; 
+}
+body::before {
+    position: fixed;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../maple/backgroundMercedes.jpeg');
+    -webkit-filter: blur(10px); 
+    -moz-filter: blur(10px); 
+    -o-filter: blur(10px); 
+    -ms-filter: blur(10px); 
+    filter: blur(10px);
+    transform: scale(1.08);
+    background-repeat: no-repeat;
+    z-index: -1; 
+    content: "";
+    background-position: center center;
+}

@@ -11,7 +11,7 @@ body::before {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url('./maple/background2.jpeg');
+    background-image: url('./maple/background.jpeg');
     -webkit-filter: blur(10px); 
     -moz-filter: blur(10px); 
     -o-filter: blur(10px); 
@@ -21,6 +21,7 @@ body::before {
     background-repeat: no-repeat;
     z-index: -1; 
     content: "";
+    background-position: center center;
 }
 
 .container {
@@ -30,17 +31,16 @@ body::before {
 h1 {
     text-align: center;
     color:white;
+    width:1500px;
+    padding:0 0 0 16.5px;
 }
 
 h3 {
     color:white;
     text-align: center;
     margin:0;
-}
-
-p {
-    color:white;
-    margin: 0;
+    padding:5px 0 0 16.2px;
+    width:1500px;
 }
 
 .character {
@@ -71,110 +71,110 @@ p {
 .Adventurer {
     display: flex;
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: center;
     width: 1500px;
     margin:0 auto;
-    float:left;
-    padding: 25px 20px;
+    float:center;
+    padding: 25px 0;
     flex-direction: row;
 }
 
 .KnightsOfCygnus {
     display: flex;
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: center;
     width: 1500px;
     margin:0 auto;
-    float:left;
-    padding: 25px 20px;
+    float:center;
+    padding: 25px 0;
     flex-direction: row;
 }
 
 .Resistance {
     display: flex;
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: center;
     width: 1500px;
     margin:0 auto;
-    float:left;
-    padding: 25px 20px;
+    float:center;
+    padding: 25px 0;
     flex-direction: row;
 }
 
 .Demon {
     display: flex;
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: center;
     width: 1500px;
     margin:0 auto;
-    float:left;
-    padding: 25px 20px;
+    float:center;
+    padding: 25px 0;
     flex-direction: row;
 }
 
 .Hero {
     display: flex;
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: center;
     width: 1500px;
     margin:0 auto;
-    float:left;
-    padding: 25px 20px;
+    float:center;
+    padding: 25px 0;
     flex-direction: row;
 }
 
 .Nova {
     display: flex;
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: center;
     width: 1500px;
     margin:0 auto;
-    float:left;
-    padding: 25px 20px;
+    float:center;
+    padding: 25px 0;
     flex-direction: row;
 }
 
 .Ref {
     display: flex;
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: center;
     width: 1500px;
     margin:0 auto;
-    float:left;
-    padding: 25px 20px;
+    float:center;
+    padding: 25px 0;
     flex-direction: row;
 }
 
 .Anima {
     display: flex;
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: center;
     width: 1500px;
     margin:0 auto;
-    float:left;
-    padding: 25px 20px;
+    float:center;
+    padding: 25px 0;
     flex-direction: row;
 }
 
 .Zero {
     display: flex;
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: center;
     width: 1500px;
     margin:0 auto;
-    float:left;
-    padding: 25px 20px;
+    float:center;
+    padding: 25px 0;
     flex-direction: row;
 }
 
 .Kinesis {
     display: flex;
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: center;
     width: 1500px;
     margin:0 auto;
-    float:left;
-    padding: 25px 20px;
+    float:center;
+    padding: 25px 0;
     flex-direction: row;
 }
 
@@ -202,14 +202,15 @@ p {
     height:135%;
     margin:0 0 0 20px;
     transform: scale(2.5) skewX(5deg);
+
 }
 .Adventurer .character:nth-child(4) .image { 
     background-image: url("./maple/ArchMageTC.png");
     background-size:contain;
     background-position:left;
-    width:75%;
+    width:72%;
     height:110%;
-    transform: scale(2.6) skewX(5deg);
+    transform: scale(2.7) skewX(5deg);
 }
 .Adventurer .character:nth-child(5) .image { 
     background-image: url("./maple/ArchMageFP.png");
@@ -224,16 +225,16 @@ p {
     background-size:contain;
     background-position:left;
     width:90%;
-    height:130%;
-    transform: scale(2.3) skewX(5deg);
+    height:115%;
+    transform: scale(2.1) skewX(5deg);
 }
 .Adventurer .character:nth-child(7) .image { 
     background-image: url("./maple/BowMaster.png");
     background-size:contain;
     background-position:left;
     width:110%;
-    height:155%;
-    transform: scale(1.8) skewX(5deg);
+    height:135%;
+    transform: scale(1.6) skewX(5deg);
 }
 .Adventurer .character:nth-child(8) .image { 
     background-image: url("./maple/Marksman.png");
@@ -256,9 +257,9 @@ p {
     background-size:contain;
     background-position:left;
     width:90%;
-    height:110%;
+    height:95%;
     margin:0 0 0 20px;
-    transform: scale(2) skewX(5deg);
+    transform: scale(1.88) skewX(5deg);
 }
 .Adventurer .character:nth-child(11) .image {
     background-image: url("./maple/Shadower.png");
@@ -492,34 +493,34 @@ p {
     background-position:left;
     width:100%;
     height:100%;
-    margin:0 0 0 40px;
-    transform: scale(2.5) skewX(5deg);
+    margin:0 0 0 50px;
+    transform: scale(3.3) skewX(5deg);
 }
 .Nova .character:nth-child(4) .image {
     background-image: url("./maple/AngelicBuster.png");
     background-size:contain;
     background-position:left;
     width:100%;
-    height:110%;
+    height:130%;
     margin: 0 0 0 2px;
-    transform: scale(1.8) skewX(5deg);
+    transform: scale(2.1) skewX(5deg);
 }
 .Ref .character:nth-child(1) .image {
     background-image: url("./maple/Adele.png");
     background-size:contain;
     background-position:left;
     width:100%;
-    height:140%;
-    margin:0 0 0 5px;
-    transform: scale(1.7) skewX(5deg);
+    height:152%;
+    margin:0 0 0 7px;
+    transform: scale(1.8) skewX(5deg);
 }
 .Ref .character:nth-child(2) .image {
     background-image: url("./maple/Ark.png");
     background-size:contain;
     background-position:left;
-    width:63%;
-    height:120%;
-    transform: scale(2.5) skewX(5deg);
+    width:60%;
+    height:130%;
+    transform: scale(2.8) skewX(5deg);
 }
 .Ref .character:nth-child(3) .image {
     background-image: url("./maple/Illium.png");
@@ -535,17 +536,17 @@ p {
     background-size:contain;
     background-position:left;
     width:77%;
-    height:110%;
-    transform: scale(2.7) skewX(5deg);
+    height:120%;
+    transform: scale(2.9) skewX(5deg);
 }
 .Anima .character:nth-child(2) .image {
     background-image: url("./maple/HoYoung.png");
     background-size:contain;
     background-position:left;
     width:100%;
-    height:130%;
+    height:140%;
     margin:0 0 0 18px;
-    transform: scale(1.7) skewX(5deg);
+    transform: scale(1.8) skewX(5deg);
 }
 .Zero .character:nth-child(1) .image {
     background-image: url("./maple/Zero_Alpha.png"), url("./maple/Zero_Beta.png");
@@ -561,7 +562,7 @@ p {
     background-size:contain;
     background-position:left;
     width:100%;
-    height:110%;
+    height:120%;
     margin:0 0 0 2px;
-    transform: scale(1.8) skewX(5deg);
+    transform: scale(2) skewX(5deg);
 }
