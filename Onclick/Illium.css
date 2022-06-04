@@ -1,0 +1,8 @@
+body::before {
+    background-image: url('../maple/backgroundIllium.jpeg');
+    background-position: center center;
+}
+
+.image {
+    background-image: url("../maple/Illium.png");
+}

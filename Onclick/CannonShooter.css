@@ -1,0 +1,7 @@
+body::before {
+    background-image: url('../maple/backgroundCannonShooter.webp');
+}
+
+.image {
+    background-image: url("../maple/CannonShooter.png");
+}

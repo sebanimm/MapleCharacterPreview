@@ -1,0 +1,22 @@
+body::before {
+    background-image: url('../maple/backgroundZero.jpeg');
+    background-position: center center;
+}
+
+.image {
+    margin: 0;
+}
+
+.character {
+    width:400px;
+    height:480px;
+    margin:0;
+}
+
+.character:nth-child(1) .image {
+    background-image: url("../maple/Zero_Alpha.png");
+}
+
+.character:nth-child(2) .image {
+    background-image: url("../maple/Zero_Beta.png");
+}

@@ -31,7 +31,7 @@ body::before {
 h1 {
     text-align: center;
     color:white;
-    width:1500px;
+    max-width:2500px;
     padding:0 0 0 16.5px;
 }
 
@@ -39,8 +39,8 @@ h3 {
     color:white;
     text-align: center;
     margin:0;
-    padding:5px 0 0 16.2px;
-    width:1500px;
+    padding:5px 0 0 11.5px;
+    max-width:2500px;
 }
 
 .character {
@@ -60,19 +60,16 @@ h3 {
     z-index: 1;
 }
 
-.character > .image {
-    background-repeat: no-repeat;
-}
-
 .image {
     transform: skewX(5deg);
+    background-repeat: no-repeat;
 }
 
 .Adventurer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 1500px;
+    max-width: 1500px;
     margin:0 auto;
     float:center;
     padding: 25px 0;
@@ -83,7 +80,7 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 1500px;
+    max-width: 1500px;
     margin:0 auto;
     float:center;
     padding: 25px 0;
@@ -94,7 +91,7 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 1500px;
+    max-width: 1500px;
     margin:0 auto;
     float:center;
     padding: 25px 0;
@@ -105,7 +102,7 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 1500px;
+    max-width: 1500px;
     margin:0 auto;
     float:center;
     padding: 25px 0;
@@ -116,7 +113,7 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 1500px;
+    max-width: 1500px;
     margin:0 auto;
     float:center;
     padding: 25px 0;
@@ -127,7 +124,7 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 1500px;
+    max-width: 1500px;
     margin:0 auto;
     float:center;
     padding: 25px 0;
@@ -138,7 +135,7 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 1500px;
+    max-width: 1500px;
     margin:0 auto;
     float:center;
     padding: 25px 0;
@@ -149,7 +146,7 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 1500px;
+    max-width: 1500px;
     margin:0 auto;
     float:center;
     padding: 25px 0;
@@ -160,7 +157,7 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 1500px;
+    max-width: 1500px;
     margin:0 auto;
     float:center;
     padding: 25px 0;
@@ -171,7 +168,7 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 1500px;
+    max-width: 1500px;
     margin:0 auto;
     float:center;
     padding: 25px 0;

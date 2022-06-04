@@ -1,0 +1,7 @@
+body::before {
+    background-image: url('../maple/backgroundDualblade.jpg');
+}
+
+.image {
+    background-image: url("../maple/DualBlade.png");
+}

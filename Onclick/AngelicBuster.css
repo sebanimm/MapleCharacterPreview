@@ -1,0 +1,7 @@
+body::before {
+    background-image: url('../maple/backgroundAngelicBuster.png');
+}
+
+.image {
+    background-image: url("../maple/AngelicBuster.png");
+}

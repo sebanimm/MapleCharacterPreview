@@ -1,0 +1,8 @@
+body::before {
+    background-image: url('../maple/backgroundLuminous.webp');
+    background-position: center center;
+}
+
+.image {
+    background-image: url("../maple/Luminous.png");
+}

@@ -1,0 +1,8 @@
+body::before {
+    background-image: url('../maple/backgroundAdele.jpeg');
+    background-position: center bottom;
+}
+
+.image {
+    background-image: url("../maple/Adele.png");
+}

@@ -1,0 +1,8 @@
+body::before {
+    background-image: url('../maple/backgroundKain.webp');
+    background-position: center center;
+}
+
+.image {
+    background-image: url("../maple/Kain.png");
+}
