@@ -1,30 +1,10 @@
 @font-face {
-    font-family: "hanna";
-    src: url("./fonts/BMHANNA_11yrs_ttf.woff");
-}
-
-@font-face {
     font-family: "hannaair";
     src: url("./fonts/BMHANNAAir_ttf.woff");
 }
 
 @font-face {
-    font-family: "hannapro";
-    src: url("./fonts/BMHANNAPro.woff");
-}
-
-@font-face {
-    font-family: "jua";
-    src: url("./fonts/BMJUA_ttf.woff");
-}
-
-@font-face {
-    font-family: "maplelight";
-    src: url("./fonts/Maplestory-Light.woff");
-}
-
-@font-face {
-    font-family: "maplelbold";
+    font-family: "maplebold";
     src: url("./fonts/Maplestory-Bold.woff");
 }
 
@@ -67,7 +47,7 @@ body::before {
     max-width:2500px;
     padding:0 0 0 16.5px;
     font-size: 50px;
-    font-family: "maplelbold";
+    font-family: "maplebold";
 }
 
 .container > h1 {
@@ -76,7 +56,7 @@ body::before {
     margin:0;
     padding:5px 0 0 11.5px;
     max-width:2500px;
-    font-family: "maplelight";
+    font-family: "hannaair";
 }
 
 .character {
