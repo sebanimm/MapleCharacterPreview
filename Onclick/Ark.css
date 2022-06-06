@@ -2,7 +2,3 @@ body::before {
     background-image: url('../maple/backgroundArk.jpeg');
     background-position: center center;
 }
-
-.image {
-    background-image: url("../maple/Ark.png");
-}
