@@ -2,3 +2,11 @@ body::before {
     background-image: url('../maple/backgroundZero.jpeg');
     background-position: center center;
 }
+
+p {
+    height: 300px;
+}
+
+img {
+    width: 300px;
+}

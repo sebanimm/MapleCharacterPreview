@@ -3,3 +3,10 @@ body::before {
     background-position: center center;
 }
 
+img {
+    width:400px;
+}
+
+.character {
+    overflow: hidden;
+}

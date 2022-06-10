@@ -1,13 +1,3 @@
 body::before {
     background-image: url('../maple/backgroundPhantom.jpeg');
 }
-
-.skill {
-    width:500px;
-    overflow: hidden;
-}
-
-.skill > video {
-    height:500px;
-    background-size: contain;
-}

@@ -20,12 +20,12 @@ body::before {
     filter: blur(10px);
     transform: scale(1.08);
     background-repeat: no-repeat;
-    z-index: -1; 
+    z-index: -10; 
     content: "";
 }
 
 .container {
-    margin:10px 0;
+    margin:0;
 }
 
 .character {
@@ -36,9 +36,4 @@ body::before {
 
 img {
     width: 500px;
-}
-
-.character > video {
-    width:500px;
-    border: 7px solid black;
 }
