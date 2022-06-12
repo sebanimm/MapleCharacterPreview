@@ -1,3 +1,24 @@
+@font-face {
+    font-family: "tmon";
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/TmonMonsori.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'nanum';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'maplebold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html	{ 
     overflow: scroll; 
 }
@@ -36,4 +57,210 @@ body::before {
 
 img {
     width: 500px;
+}
+
+h2 {
+    margin: 20px 0 40px 0;
+    text-align: center;
+    font-family: "tmon";
+    color: white;
+    font-size: 50px;
+}
+
+p {
+    font-family: "nanum";
+    margin: 0 30px;
+    font-size: 26px;
+    color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+label {
+    color: white;
+    cursor: pointer;
+    z-index: 5;
+}
+
+.sidebar {
+    background: black;
+    position: fixed;
+    width:900px;
+    top: 0;
+    height: 100vh;
+    left: -823px;
+    z-index: -100;
+    transition: all .35s;
+    border-left: 3px solid white;
+}
+
+nav {
+    float:left;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 100%;
+    width:80px;
+}
+
+#icon1 {
+    display: none;
+}
+#icon1:checked + label {
+    z-index: 3;
+    width: 80px;
+    height: 22px;
+    position: relative;
+    cursor: pointer;
+    display: block;
+}
+#icon1:checked + label + div {
+    left: 80px;
+    background-color: black;
+}
+#icon1 + label + div {
+    background: black;
+}
+
+#icon2 {
+    display: none;
+}
+#icon2:checked + label {
+    z-index: 3;
+    width: 80px;
+    height: 22px;
+    position: relative;
+    cursor: pointer;
+    display: block;
+}
+#icon2:checked + label + div {
+    left: 80px;
+    background-color: black;
+}
+#icon2 + label + div {
+    background: black;
+}
+
+#icon3 {
+    display: none;
+}
+#icon3:checked + label {
+    z-index: 3;
+    width: 80px;
+    height: 22px;
+    position: relative;
+    cursor: pointer;
+    display: block;
+}
+#icon3:checked + label + div {
+    left: 80px;
+    background-color: black;
+}
+#icon3 + label + div {
+    background: black;
+}
+
+#icon4 {
+    display: none;
+}
+#icon4:checked + label {
+    z-index: 3;
+    width: 80px;
+    height: 22px;
+    position: relative;
+    cursor: pointer;
+    display: block;
+}
+#icon4:checked + label + div {
+    left: 80px;
+    background-color: black;
+}
+#icon4 + label + div {
+    background: black;
+}
+
+#icon5 {
+    display: none;
+}
+#icon5:checked + label {
+    z-index: 3;
+    width: 80px;
+    height: 22px;
+    position: relative;
+    cursor: pointer;
+    display: block;
+}
+#icon5:checked + label + div {
+    left: 80px;
+    background-color: black;
+}
+#icon5 + label + div {
+    background: black;
+}
+
+#icon6 {
+    display: none;
+}
+#icon6:checked + label {
+    z-index: 3;
+    width: 80px;
+    height: 22px;
+    position: relative;
+    cursor: pointer;
+    display: block;
+}
+#icon6:checked + label + div {
+    left: 80px;
+    background-color: black;
+}
+#icon6 + label + div {
+    background: black;
+}
+
+#icon7 {
+    display: none;
+}
+#icon7:checked + label {
+    z-index: 3;
+    width: 80px;
+    height: 22px;
+    position: relative;
+    cursor: pointer;
+    display: block;
+}
+#icon7:checked + label + div {
+    left: 80px;
+    background-color: black;
+}
+#icon7 + label + div {
+    background: black;
+}
+
+#icon8 {
+    display: none;
+}
+#icon8:checked + label {
+    z-index: 7;
+    width: 80px;
+    height: 22px;
+    position: relative;
+    cursor: pointer;
+    display: block;
+}
+#icon8:checked + label + div {
+    left: 80px;
+    background-color: black;
+}
+#icon8 + label + div {
+    background: black;
+}
+
+label > div {
+    font-family: "maplebold";
+    font-size: 20px;
+    text-align: center;    
 }

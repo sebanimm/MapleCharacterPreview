@@ -1,11 +1,15 @@
 @font-face {
-    font-family: "hannaair";
-    src: url("./fonts/BMHANNAAir_ttf.woff");
+    font-family: 'hannaair';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/BMHANNAAir.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-    font-family: "maplebold";
-    src: url("./fonts/Maplestory-Bold.woff");
+    font-family: 'maplebold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 
