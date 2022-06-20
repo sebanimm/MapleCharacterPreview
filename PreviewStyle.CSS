@@ -18,7 +18,7 @@ html	{
 }
 
 body	{ 
-    overflow: scroll; 
+    overflow: scroll;   
 }
 
 body::before {
@@ -31,9 +31,9 @@ body::before {
     background-image: url('./maple/background.jpeg');
     -webkit-filter: blur(10px); 
     -moz-filter: blur(10px); 
-    -o-filter: blur(10px); 
     -ms-filter: blur(10px); 
     filter: blur(10px);
+    -o-filter: blur(10px); 
     transform: scale(1.08);
     background-repeat: no-repeat;
     z-index: -1; 

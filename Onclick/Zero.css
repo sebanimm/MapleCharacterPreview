@@ -3,7 +3,7 @@ body::before {
     background-position: center center;
 }
 
-p {
+#spacing {
     height: 300px;
 }
 
