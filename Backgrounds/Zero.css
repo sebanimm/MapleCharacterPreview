@@ -1,0 +1,12 @@
+body::before {
+    background-image: url('../maple/backgroundZero.jpeg');
+    background-position: center center;
+}
+
+#spacing {
+    height: 320px;
+}
+
+img {
+    width: 300px;
+}

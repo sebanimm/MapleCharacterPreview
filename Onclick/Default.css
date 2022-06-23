@@ -19,12 +19,8 @@
     font-style: normal;
 }
 
-html	{ 
-    overflow: scroll; 
-}
-
-body	{ 
-    overflow: scroll; 
+::-webkit-scrollbar {
+    display: none;
 }
 
 body::before {
@@ -48,7 +44,6 @@ body::before {
 .container {
     margin:0;
 }
-
 
 .character {
     max-width: 1000px;
@@ -83,7 +78,7 @@ p {
 label {
     color: white;
     cursor: pointer;
-    z-index: 5;
+    z-index: 15;
 }
 
 .sidebar {
@@ -109,155 +104,195 @@ nav {
     width:80px;
 }
 
-#icon1 {
+#icon_description {
     display: none;
 }
-#icon1:checked + label {
-    z-index: 3;
+#icon_description:checked + label {
+    z-index: 16;
     width: 80px;
     height: 22px;
     position: relative;
     cursor: pointer;
     display: block;
 }
-#icon1:checked + label + div {
+#icon_description:checked + label + div {
     left: 80px;
     background-color: black;
 }
-#icon1 + label + div {
+#icon_description + label + div {
     background: black;
 }
 
-#icon2 {
+#icon_default {
     display: none;
 }
-#icon2:checked + label {
-    z-index: 3;
+#icon_default:checked + label {
+    z-index: 16;
     width: 80px;
     height: 22px;
     position: relative;
     cursor: pointer;
     display: block;
 }
-#icon2:checked + label + div {
+#icon_default:checked + label + div {
     left: 80px;
     background-color: black;
 }
-#icon2 + label + div {
+#icon_default + label + div {
     background: black;
 }
 
-#icon3 {
+#icon_1st {
     display: none;
 }
-#icon3:checked + label {
-    z-index: 3;
+#icon_1st:checked + label {
+    z-index: 16;
     width: 80px;
     height: 22px;
     position: relative;
     cursor: pointer;
     display: block;
 }
-#icon3:checked + label + div {
+#icon_1st:checked + label + div {
     left: 80px;
     background-color: black;
 }
-#icon3 + label + div {
+#icon_1st + label + div {
     background: black;
 }
 
-#icon4 {
+#icon_1-5 {
     display: none;
 }
-#icon4:checked + label {
-    z-index: 3;
+#icon_1-5:checked + label {
+    z-index: 16;
     width: 80px;
     height: 22px;
     position: relative;
     cursor: pointer;
     display: block;
 }
-#icon4:checked + label + div {
+#icon_1-5:checked + label + div {
     left: 80px;
     background-color: black;
 }
-#icon4 + label + div {
+#icon_1-5 + label + div {
     background: black;
 }
 
-#icon5 {
+
+#icon_2nd {
     display: none;
 }
-#icon5:checked + label {
-    z-index: 3;
+#icon_2nd:checked + label {
+    z-index: 16;
     width: 80px;
     height: 22px;
     position: relative;
     cursor: pointer;
     display: block;
 }
-#icon5:checked + label + div {
+#icon_2nd:checked + label + div {
     left: 80px;
     background-color: black;
 }
-#icon5 + label + div {
+#icon_2nd + label + div {
     background: black;
 }
 
-#icon6 {
+#icon_2-5 {
     display: none;
 }
-#icon6:checked + label {
-    z-index: 3;
+#icon_2-5:checked + label {
+    z-index: 16;
     width: 80px;
     height: 22px;
     position: relative;
     cursor: pointer;
     display: block;
 }
-#icon6:checked + label + div {
+#icon_2-5:checked + label + div {
     left: 80px;
     background-color: black;
 }
-#icon6 + label + div {
+#icon_2-5 + label + div {
     background: black;
 }
 
-#icon7 {
+
+#icon_3rd {
     display: none;
 }
-#icon7:checked + label {
-    z-index: 3;
+#icon_3rd:checked + label {
+    z-index: 16;
     width: 80px;
     height: 22px;
     position: relative;
     cursor: pointer;
     display: block;
 }
-#icon7:checked + label + div {
+#icon_3rd:checked + label + div {
     left: 80px;
     background-color: black;
 }
-#icon7 + label + div {
+#icon_3rd + label + div {
     background: black;
 }
 
-#icon8 {
+#icon_4th {
     display: none;
 }
-#icon8:checked + label {
-    z-index: 7;
+#icon_4th:checked + label {
+    z-index: 16;
     width: 80px;
     height: 22px;
     position: relative;
     cursor: pointer;
     display: block;
 }
-#icon8:checked + label + div {
+#icon_4th:checked + label + div {
     left: 80px;
     background-color: black;
 }
-#icon8 + label + div {
+#icon_4th + label + div {
+    background: black;
+}
+
+#icon_hyper {
+    display: none;
+}
+#icon_hyper:checked + label {
+    z-index: 16;
+    width: 80px;
+    height: 22px;
+    position: relative;
+    cursor: pointer;
+    display: block;
+}
+#icon_hyper:checked + label + div {
+    left: 80px;
+    background-color: black;
+}
+#icon_hyper + label + div {
+    background: black;
+}
+
+#icon_5th {
+    display: none;
+}
+#icon_5th:checked + label {
+    z-index: 16;
+    width: 80px;
+    height: 22px;
+    position: relative;
+    cursor: pointer;
+    display: block;
+}
+#icon_5th:checked + label + div {
+    left: 80px;
+    background-color: black;
+}
+#icon_5th + label + div {
     background: black;
 }
 
@@ -316,4 +351,15 @@ td > p {
 
 .skill + p + p + p {
     margin: 0;
+}
+
+.sidebar_nav {
+    background: black;
+    position: fixed;
+    width:950px;
+    top: 0;
+    height: 100vh;
+    left: -870px;
+    overflow: hidden;
+    z-index: 10;
 }
