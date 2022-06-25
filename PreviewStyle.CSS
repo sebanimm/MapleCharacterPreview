@@ -88,7 +88,6 @@ body::before {
     justify-content: center;
     max-width: 1500px;
     margin:0 auto;
-    float:center;
     padding: 25px 0;
     flex-direction: row;
 }
@@ -99,7 +98,6 @@ body::before {
     justify-content: center;
     max-width: 1500px;
     margin:0 auto;
-    float:center;
     padding: 25px 0;
     flex-direction: row;
 }
@@ -110,7 +108,6 @@ body::before {
     justify-content: center;
     max-width: 1500px;
     margin:0 auto;
-    float:center;
     padding: 25px 0;
     flex-direction: row;
 }
@@ -121,7 +118,6 @@ body::before {
     justify-content: center;
     max-width: 1500px;
     margin:0 auto;
-    float:center;
     padding: 25px 0;
     flex-direction: row;
 }
@@ -132,7 +128,6 @@ body::before {
     justify-content: center;
     max-width: 1500px;
     margin:0 auto;
-    float:center;
     padding: 25px 0;
     flex-direction: row;
 }
@@ -143,7 +138,6 @@ body::before {
     justify-content: center;
     max-width: 1500px;
     margin:0 auto;
-    float:center;
     padding: 25px 0;
     flex-direction: row;
 }
@@ -154,7 +148,6 @@ body::before {
     justify-content: center;
     max-width: 1500px;
     margin:0 auto;
-    float:center;
     padding: 25px 0;
     flex-direction: row;
 }
@@ -165,7 +158,6 @@ body::before {
     justify-content: center;
     max-width: 1500px;
     margin:0 auto;
-    float:center;
     padding: 25px 0;
     flex-direction: row;
 }
@@ -176,7 +168,6 @@ body::before {
     justify-content: center;
     max-width: 1500px;
     margin:0 auto;
-    float:center;
     padding: 25px 0;
     flex-direction: row;
 }
@@ -187,7 +178,6 @@ body::before {
     justify-content: center;
     max-width: 1500px;
     margin:0 auto;
-    float:center;
     padding: 25px 0;
     flex-direction: row;
 }
@@ -320,45 +310,45 @@ body::before {
     transform: scale(2.3) skewX(5deg);
 }
 .KnightsOfCygnus .character:nth-child(1) .image {
-    background-image: url("./maple/SoulMaster.png");
+    background-image: url("./maple/SoulMaster.jpg");
     background-size:contain;
     background-position:left;
-    width:100%;
-    height:120%;
-    transform: scale(1.7) skewX(5deg);
+    width:120%;
+    height:150%;
+    transform: scale(2.4) skewX(5deg);
 }
 .KnightsOfCygnus .character:nth-child(2) .image {
     background-image: url("./maple/FlameWizard.png");
     background-size:contain;
     background-position:left;
-    width:90%;
-    height:140%;
-    margin:0 0 0 10px;
+    width:110%;
+    height:150%;
+    margin:0 0 0 14px;
     transform: scale(2.3) skewX(5deg);
 }
 .KnightsOfCygnus .character:nth-child(3) .image {
     background-image: url("./maple/WindBreaker.png");
     background-size:contain;
     background-position:left;
-    width:80%;
+    width:100%;
     height:130%;
-    margin:0 0 0 18px;
-    transform: scale(2) skewX(5deg);
+    margin:0 0 0 24px;
+    transform: scale(3.6) skewX(5deg);
 }
 .KnightsOfCygnus .character:nth-child(4) .image {
     background-image: url("./maple/NightWalker.png");
     background-size:contain;
     background-position:left;
-    width:93%;
+    width:70%;
     height:130%;
-    transform: scale(1.8) skewX(5deg);
+    transform: scale(4.4) skewX(5deg);
 }
 .KnightsOfCygnus .character:nth-child(5) .image {
     background-image: url("./maple/Striker.png");
     background-size:contain;
     background-position:left;
-    width:87%;
-    height:110%;
+    width:105%;
+    height:130%;
     transform: scale(2) skewX(5deg);
 }
 .KnightsOfCygnus .character:nth-child(6) .image {
@@ -366,9 +356,9 @@ body::before {
     background-size:contain;
     background-position:left;
     width:100%;
-    height:140%;
-    margin:0 0 0 37px;
-    transform: scale(2.2) skewX(5deg);
+    height:120%;
+    margin:0 0 0 48px;
+    transform: scale(3) skewX(5deg);
 }
 .Resistance .character:nth-child(1) .image {
     background-image: url("./maple/Blaster.png");

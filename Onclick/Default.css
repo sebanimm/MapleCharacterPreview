@@ -41,14 +41,51 @@ body::before {
     content: "";
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .container {
-    margin:0;
+    height: 100vh;
 }
 
 .character {
-    max-width: 1000px;
-    max-height: 1000px;
     float: right;
+}
+
+.sidebar {
+    background: black;
+    position: fixed;
+    width:950px;
+    top: 0;
+    height: 100vh;
+    left: -873px;
+    z-index: -100;
+    transition: all .35s;
+    border-left: 3px solid white;
+    overflow: scroll;
+}
+
+.skill {
+    height: 32px;
+    width: 32px;
+    display: block;
+    margin:10px auto;
+}
+
+.skill_icon {
+    width: 180px;
+    height: 50px;
+    background-color: white;
+    font-family: "nanum";
+}
+
+.skill_description {
+    width: 440px;
+    height: 50px;
+    background-color: white;
+    font-family: "nanum";
 }
 
 img {
@@ -70,30 +107,6 @@ p {
     color: white;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
-label {
-    color: white;
-    cursor: pointer;
-    z-index: 15;
-}
-
-.sidebar {
-    background: black;
-    position: fixed;
-    width:950px;
-    top: 0;
-    height: 100vh;
-    left: -873px;
-    z-index: -100;
-    transition: all .35s;
-    border-left: 3px solid white;
-    overflow: scroll;
-}
-
 nav {
     float:left;
     position: fixed;
@@ -102,6 +115,40 @@ nav {
     flex-direction: column;
     height: 100%;
     width:80px;
+}
+
+label {
+    color: white;
+    cursor: pointer;
+    z-index: 15;
+}
+
+label > div {
+    font-family: "maplebold";
+    font-size: 20px;
+    text-align: center;    
+}
+
+table {
+    margin: 0 auto 40px auto;
+    width: 660px;
+}
+
+td {
+    background-color: white;
+    width: 100px;
+    height: 120px;
+}
+
+td > p {
+    font-size: 14px;
+    color: black;
+    text-align: center;
+    margin: 0 30px;
+}
+
+.skill + p {
+    margin: 0;
 }
 
 #icon_description {
@@ -294,72 +341,4 @@ nav {
 }
 #icon_5th + label + div {
     background: black;
-}
-
-label > div {
-    font-family: "maplebold";
-    font-size: 20px;
-    text-align: center;    
-}
-
-.skill_icon {
-    width: 180px;
-    height: 50px;
-    background-color: white;
-    font-family: "nanum";
-}
-
-.skill_description {
-    width: 440px;
-    height: 50px;
-    background-color: white;
-    font-family: "nanum";
-}
-
-.skill {
-    height: 32px;
-    width: 32px;
-    display: block;
-    margin:10px auto;
-}
-
-table {
-    margin: 0 auto 40px auto;
-    width: 660px;
-}
-
-td {
-    background-color: white;
-    width: 100px;
-    height: 120px;
-}
-
-td > p {
-    font-size: 14px;
-    color: black;
-    text-align: center;
-    margin: 0 30px;
-}
-
-.skill + p {
-    margin: 0;
-}
-
-.skill + p + p{
-    margin: 0;
-}
-
-.skill + p + p + p {
-    margin: 0;
-}
-
-.sidebar_nav {
-    background: black;
-    position: fixed;
-    width:950px;
-    top: 0;
-    height: 100vh;
-    left: -870px;
-    overflow: hidden;
-    z-index: 10;
 }

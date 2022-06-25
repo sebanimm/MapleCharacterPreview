@@ -2,12 +2,3 @@ body::before {
     background-image: url('../maple/backgroundIllium.jpeg');
     background-position: center center;
 }
-
-img {
-    width:550px;
-    margin: 0 -50px 0 0;
-}
-
-.character {
-    overflow: hidden;
-}
