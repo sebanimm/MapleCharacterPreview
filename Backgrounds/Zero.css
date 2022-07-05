@@ -4,7 +4,9 @@ body::before {
 }
 
 #spacing {
-    height: 320px;
+    height: 610px;
+    width: 360px;
+    float: right;
 }
 
 img {

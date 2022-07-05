@@ -315,7 +315,7 @@ body::before {
     background-position:left;
     width:120%;
     height:150%;
-    transform: scale(2.4) skewX(5deg);
+    transform: scale(2) skewX(5deg);
 }
 .KnightsOfCygnus .character:nth-child(2) .image {
     background-image: url("./maple/FlameWizard.png");
@@ -324,7 +324,7 @@ body::before {
     width:110%;
     height:150%;
     margin:0 0 0 14px;
-    transform: scale(2.3) skewX(5deg);
+    transform: scale(2) skewX(5deg);
 }
 .KnightsOfCygnus .character:nth-child(3) .image {
     background-image: url("./maple/WindBreaker.png");
@@ -333,7 +333,7 @@ body::before {
     width:100%;
     height:130%;
     margin:0 0 0 24px;
-    transform: scale(3.6) skewX(5deg);
+    transform: scale(3) skewX(5deg);
 }
 .KnightsOfCygnus .character:nth-child(4) .image {
     background-image: url("./maple/NightWalker.png");
@@ -341,7 +341,7 @@ body::before {
     background-position:left;
     width:70%;
     height:130%;
-    transform: scale(4.4) skewX(5deg);
+    transform: scale(3.6) skewX(5deg);
 }
 .KnightsOfCygnus .character:nth-child(5) .image {
     background-image: url("./maple/Striker.png");
@@ -349,16 +349,16 @@ body::before {
     background-position:left;
     width:105%;
     height:130%;
-    transform: scale(2) skewX(5deg);
+    transform: scale(1.6) skewX(5deg);
 }
 .KnightsOfCygnus .character:nth-child(6) .image {
     background-image: url("./maple/Mikhail.png");
     background-size:contain;
     background-position:left;
     width:100%;
-    height:120%;
-    margin:0 0 0 48px;
-    transform: scale(3) skewX(5deg);
+    height:115%;
+    margin:0 0 0 40px;
+    transform: scale(2.6) skewX(5deg);
 }
 .Resistance .character:nth-child(1) .image {
     background-image: url("./maple/Blaster.png");
