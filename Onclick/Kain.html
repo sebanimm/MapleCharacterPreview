@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../Onclick/Default.css">
+    <link rel="stylesheet" href="./Default.css">
     <link rel="stylesheet" href="../Backgrounds/Kain.css">
     <script src="./Default.js"></script>
     <title>카인 미리보기</title>
@@ -12,22 +12,32 @@
 <body>
     <div class="container">
         <nav>
-            <input type="checkbox" id="icon_description">
+            <input type="checkbox" id="icon_description" class="icon" name="sidebar_icons" onclick="onlyOneSidebar(this)">
             <label for="icon_description">
                 <div>카인</div>
             </label>
             <div class="sidebar">
                 <h2>어둠의 추격자, 카인</h2>
+                <input type="checkbox" name="quit_icon" id="sidebar_quit" onclick="quitSidebar(this)"> 
+                <label for="sidebar_quit">
+                    <span></span>
+                    <span></span>
+                </label>
                 <p>폭력으로 그란디스의 도시 툴렌시티를 지배하고 있는 조직 소속인 카인은 보스가 자신을 계속 속여왔던 것을 깨닫고 잃어버린 과거를 돌려받기 위한 싸움을 시작합니다.</p></p>
                 <p>
                 <p>전용무기 브레스 슈터와 상처 입은 적을 처리하기 위한 근접 무기를 다룹니다. 고대신의 힘을 발현하여 적에게 죽음의 축복을 내리고 치명적인 일격을 날릴 수 있습니다.</p>
             </div>
-            <input type="checkbox" id="icon_1st">
+            <input type="checkbox" id="icon_1st" class="icon" name="sidebar_icons" onclick="onlyOneSidebar(this)">
             <label for="icon_1st">
                 <div>I</div>
             </label>
-            <div class="sidebar" id="zz">
+            <div class="sidebar">
                 <h2>1차 전직 - 카인</h2>
+                <input type="checkbox" name="quit_icon" id="sidebar_quit">
+                <label for="sidebar_quit">
+                    <span></span>
+                    <span></span>
+                </label>
                 <table>
                     <thead>
                         <tr>
@@ -79,12 +89,17 @@
                     </tbody>
                 </table>
             </div>
-            <input type="checkbox" id="icon_2nd">
+            <input type="checkbox" id="icon_2nd" class="icon" name="sidebar_icons" onclick="onlyOneSidebar(this)">
             <label for="icon_2nd">
                 <div>II</div>
             </label>
-            <div class="sidebar" id="2nndd">
+            <div class="sidebar">
                 <h2>2차 전직 - 카인</h2>
+                <input type="checkbox" name="quit_icon" id="sidebar_quit">
+                <label for="sidebar_quit">
+                    <span></span>
+                    <span></span>
+                </label>
                 <table>
                     <thead>
                         <tr>
@@ -155,12 +170,17 @@
                     </tbody>
                 </table>
             </div>
-            <input type="checkbox" id="icon_3rd">
+            <input type="checkbox" id="icon_3rd" class="icon" name="sidebar_icons" onclick="onlyOneSidebar(this)">
             <label for="icon_3rd">
                 <div>III</div>
             </label>
             <div class="sidebar">
                 <h2>3차 전직 - 카인</h2>
+                <input type="checkbox" name="quit_icon" id="sidebar_quit">
+                <label for="sidebar_quit">
+                    <span></span>
+                    <span></span>
+                </label>
                 <table>
                     <thead>
                         <tr>
@@ -242,12 +262,17 @@
                     </tbody>
                 </table>
             </div>
-            <input type="checkbox" id="icon_4th">
+            <input type="checkbox" id="icon_4th" class="icon" name="sidebar_icons" onclick="onlyOneSidebar(this)">
             <label for="icon_4th">
                 <div>IV</div>
             </label>
             <div class="sidebar">
                 <h2>4차 전직 - 카인</h2>
+                <input type="checkbox" name="quit_icon" id="sidebar_quit">
+                <label for="sidebar_quit">
+                    <span></span>
+                    <span></span>
+                </label>
                 <table>
                     <thead>
                         <tr>
@@ -319,12 +344,17 @@
                     </tbody>
                 </table>
             </div>
-            <input type="checkbox" id="icon_hyper">
+            <input type="checkbox" id="icon_hyper" class="icon" name="sidebar_icons" onclick="onlyOneSidebar(this)">
             <label for="icon_hyper">
                 <div>Hyper</div>
             </label>
             <div class="sidebar">
                 <h2>하이퍼 스킬</h2>
+                <input type="checkbox" name="quit_icon" id="sidebar_quit">
+                <label for="sidebar_quit">
+                    <span></span>
+                    <span></span>
+                </label>
                 <table>
                     <thead>
                         <tr>
@@ -377,12 +407,17 @@
                     </tbody>
                 </table>
             </div>
-            <input type="checkbox" id="icon_5th">
+            <input type="checkbox" id="icon_5th" class="icon" name="sidebar_icons" onclick="onlyOneSidebar(this)">
             <label for="icon_5th">
                 <div>V</div>
             </label>
             <div class="sidebar">
                 <h2>5차 전직</h2>
+                <input type="checkbox" name="quit_icon" id="sidebar_quit">
+                <label for="sidebar_quit">
+                    <span></span>
+                    <span></span>
+                </label>
                 <table>
                     <thead>
                         <tr>

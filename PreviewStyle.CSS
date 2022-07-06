@@ -43,7 +43,6 @@ body::before {
 .container > p {
     text-align: center;
     color:white;
-    max-width:2500px;
     padding:0 0 0 16.5px;
     font-size: 50px;
     font-family: "maplebold";
@@ -54,7 +53,6 @@ body::before {
     text-align: center;
     margin:0;
     padding:5px 0 0 11.5px;
-    max-width:2500px;
     font-family: "hannaair";
 }
 

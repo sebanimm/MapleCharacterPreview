@@ -5,27 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../Backgrounds/KnightOfCygnus.css">
-    <link rel="stylesheet" href="../Onclick/Default.css">
+    <link rel="stylesheet" href="./Default.css">
+    <script src="./Default.js"></script>
     <title>소울마스터 미리보기</title>
 </head>
 <body>
     <div class="container">
         <nav>
-            <input type="checkbox" id="icon_description">
+            <input type="checkbox" id="icon_description" class="icon" name="sidebar_icons" onclick="onlyOneSidebar(this)">
             <label for="icon_description">
                 <div>소울마스터</div>
             </label>
             <div class="sidebar">
                 <h2>빛의 기사, 소울마스터</h2>
+                <input type="checkbox" name="quit_icon" id="sidebar_quit" onclick="quitSidebar(this)">
+                <label for="sidebar_quit">
+                    <span></span>
+                    <span></span>
+                </label>
                 <p>시그너스 기사단은 시그너스 여제를 섬기는 기사들로 구성되어 있으며, 검은 마법사와 그의 군단에 맞서 여제를 지키고 정의를 구현하기 위해 힘쓰고 있습니다.</p><br>
                 <p>태양, 달, 천체의 힘을 사용하는 소울마스터, 화염 마법의 전문가 플레임위자드, 바람과 함께하는 궁수 윈드브레이커, 그림자를 다루는 나이트워커, 연계 공격의 전문가 스트라이커로 전직 가능합니다.</p>
             </div>
-            <input type="checkbox" id="icon_default">
+            <input type="checkbox" id="icon_default" class="icon" name="sidebar_icons" onclick="onlyOneSidebar(this)">
             <label for="icon_default">
                 <div>●</div>
             </label>
             <div class="sidebar">
                 <h2>기본 - 노블레스</h2>
+                <input type="checkbox" name="quit_icon" id="sidebar_quit" onclick="quitSidebar(this)">
+                <label for="sidebar_quit">
+                    <span></span>
+                    <span></span>
+                </label>
                 <table>
                     <thead>
                         <tr>
@@ -82,12 +93,17 @@
                     </tbody>
                 </table>
             </div>
-            <input type="checkbox" id="icon_1st">
+            <input type="checkbox" id="icon_1st" class="icon" name="sidebar_icons" onclick="onlyOneSidebar(this)">
             <label for="icon_1st">
                 <div>I</div>
             </label>
             <div class="sidebar">
                 <h2>1차 전직 - 소울마스터</h2>
+                <input type="checkbox" name="quit_icon" id="sidebar_quit" onclick="quitSidebar(this)">
+                <label for="sidebar_quit">
+                    <span></span>
+                    <span></span>
+                </label>
                 <table>
                     <thead>
                         <tr>
@@ -144,12 +160,17 @@
                     </tbody>
                 </table>
             </div>
-            <input type="checkbox" id="icon_2nd">
+            <input type="checkbox" id="icon_2nd" class="icon" name="sidebar_icons" onclick="onlyOneSidebar(this)">
             <label for="icon_2nd">
                 <div>II</div>
             </label>
             <div class="sidebar">
                 <h2>2차 전직 - 소울마스터</h2>
+                <input type="checkbox" name="quit_icon" id="sidebar_quit" onclick="quitSidebar(this)">
+                <label for="sidebar_quit">
+                    <span></span>
+                    <span></span>
+                </label>
                 <table>
                     <thead>
                         <tr>
@@ -260,12 +281,17 @@
                     </tbody>
                 </table>
             </div>
-            <input type="checkbox" id="icon_3rd">
+            <input type="checkbox" id="icon_3rd" class="icon" name="sidebar_icons" onclick="onlyOneSidebar(this)">
             <label for="icon_3rd">
                 <div>III</div>
             </label>
             <div class="sidebar">
                 <h2>3차 전직 - 소울마스터</h2>
+                <input type="checkbox" name="quit_icon" id="sidebar_quit" onclick="quitSidebar(this)">
+                <label for="sidebar_quit">
+                    <span></span>
+                    <span></span>
+                </label>
                 <table>
                     <thead>
                         <tr>
@@ -349,12 +375,17 @@
                     </tbody>
                 </table>
             </div>
-            <input type="checkbox" id="icon_4th">
+            <input type="checkbox" id="icon_4th" class="icon" name="sidebar_icons" onclick="onlyOneSidebar(this)">
             <label for="icon_4th">
                 <div>IV</div>
             </label>
             <div class="sidebar">
                 <h2>4차 전직 - 소울마스터</h2>
+                <input type="checkbox" name="quit_icon" id="sidebar_quit" onclick="quitSidebar(this)">
+                <label for="sidebar_quit">
+                    <span></span>
+                    <span></span>
+                </label>
                 <table>
                     <thead>
                         <tr>
@@ -474,12 +505,17 @@
                     </tbody>
                 </table>
             </div>
-            <input type="checkbox" id="icon_hyper">
+            <input type="checkbox" id="icon_hyper" class="icon" name="sidebar_icons" onclick="onlyOneSidebar(this)">
             <label for="icon_hyper">
                 <div>Hyper</div>
             </label>
             <div class="sidebar">
                 <h2>하이퍼 스킬</h2>
+                <input type="checkbox" name="quit_icon" id="sidebar_quit" onclick="quitSidebar(this)">
+                <label for="sidebar_quit">
+                    <span></span>
+                    <span></span>
+                </label>
                 <table>
                     <thead>
                         <tr>
@@ -518,12 +554,17 @@
                     </tbody>
                 </table>
             </div>
-            <input type="checkbox" id="icon_5th">
+            <input type="checkbox" id="icon_5th" class="icon" name="sidebar_icons" onclick="onlyOneSidebar(this)">
             <label for="icon_5th">
                 <div>V</div>
             </label>
             <div class="sidebar">
                 <h2>5차 전직</h2>
+                <input type="checkbox" name="quit_icon" id="sidebar_quit" onclick="quitSidebar(this)">
+                <label for="sidebar_quit">
+                    <span></span>
+                    <span></span>
+                </label>
                 <table>
                     <thead>
                         <tr>
@@ -575,6 +616,7 @@
         <div class="character">
             <img src="../maple/SoulMaster.png">
         </div>
+        <button onclick="history.back()">돌아가기</button>
     </div>
 </body>
 </html>

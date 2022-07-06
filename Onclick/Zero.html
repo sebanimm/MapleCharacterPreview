@@ -4,29 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../Onclick/Default.css">
+    <link rel="stylesheet" href="./Default.css">
     <link rel="stylesheet" href="../Backgrounds/Zero.css">
+    <script src="./Default.js"></script>
     <title>제로 미리보기</title>
 </head>
 <body>
     <div class="container">
         <nav>
-            <input type="checkbox" id="icon_description">
+            <input type="checkbox" id="icon_description" class="icon" name="sidebar_icons" onclick="onlyOneSidebar(this)">
             <label for="icon_description">
                 <div>제로</div>
             </label>
             <div class="sidebar">
                 <h2>시간의 초월자, 제로</h2>
+                <input type="checkbox" name="quit_icon" id="sidebar_quit" onclick="quitSidebar(this)"> 
+                <label for="sidebar_quit">
+                    <span></span>
+                    <span></span>
+                </label>
                 <p>검은 마법사에 의해 봉인되기 전 시간의 여신이 탄생시킨 신의 아이입니다. 시간의 초월자가 될 운명을 갖고 있습니다.</p><br>
                 <p>서로 다른 무기와 공격 스타일을 가진 두 명의 제로를 함께 성장시키며, 전투 도중 캐릭터를 교체하여 공격하는 태그 시스템을 가지고 있습니다.</p><br>
                 <p>시간의 힘인 타임 포스를 사용하여 스킬을 사용하며, 스킬을 연계할수록 보다 화려하고 강력한 스킬을 사용할 수 있습니다.</p>
             </div>
-            <input type="checkbox" id="icon_default">
+            <input type="checkbox" id="icon_default" class="icon" name="sidebar_icons" onclick="onlyOneSidebar(this)">
             <label for="icon_default">
                 <div>공용</div>
             </label>
             <div class="sidebar">
                 <h2>공용 스킬</h2>
+                <input type="checkbox" name="quit_icon" id="sidebar_quit"> 
+                <label for="sidebar_quit">
+                    <span></span>
+                    <span></span>
+                </label>
                 <table>
                     <thead>
                         <tr>
@@ -89,12 +100,17 @@
                     </tbody>
                 </table>
             </div>
-            <input type="checkbox" id="icon_1st">
+            <input type="checkbox" id="icon_1st" class="icon" name="sidebar_icons" onclick="onlyOneSidebar(this)">
             <label for="icon_1st">
                 <div>알파</div>
             </label>
             <div class="sidebar">
                 <h2>알파 스킬</h2>
+                <input type="checkbox" name="quit_icon" id="sidebar_quit"> 
+                <label for="sidebar_quit">
+                    <span></span>
+                    <span></span>
+                </label>
                 <table>
                     <thead>
                         <tr>
@@ -151,12 +167,17 @@
                     </tbody>
                 </table>
             </div>
-            <input type="checkbox" id="icon_2nd">
+            <input type="checkbox" id="icon_2nd" class="icon" name="sidebar_icons" onclick="onlyOneSidebar(this)">
             <label for="icon_2nd">
                 <div>베타</div>
             </label>
             <div class="sidebar">
                 <h2>베타 스킬</h2>
+                <input type="checkbox" name="quit_icon" id="sidebar_quit"> 
+                <label for="sidebar_quit">
+                    <span></span>
+                    <span></span>
+                </label>
                 <table>
                     <thead>
                         <tr>
@@ -267,12 +288,17 @@
                     </tbody>
                 </table>
             </div>
-            <input type="checkbox" id="icon_hyper">
+            <input type="checkbox" id="icon_hyper" class="icon" name="sidebar_icons" onclick="onlyOneSidebar(this)">
             <label for="icon_hyper">
                 <div>초월자</div>
             </label>
             <div class="sidebar">
                 <h2>초월자 스킬</h2>
+                <input type="checkbox" name="quit_icon" id="sidebar_quit"> 
+                <label for="sidebar_quit">
+                    <span></span>
+                    <span></span>
+                </label>
                 <table>
                     <thead>
                         <tr>
@@ -356,12 +382,17 @@
                     </tbody>
                 </table>
             </div>
-            <input type="checkbox" id="icon_5th">
+            <input type="checkbox" id="icon_5th" class="icon" name="sidebar_icons" onclick="onlyOneSidebar(this)">
             <label for="icon_5th">
                 <div>V</div>
             </label>
             <div class="sidebar">
                 <h2>5차 전직</h2>
+                <input type="checkbox" name="quit_icon" id="sidebar_quit"> 
+                <label for="sidebar_quit">
+                    <span></span>
+                    <span></span>
+                </label>
                 <table>
                     <thead>
                         <tr>

@@ -151,10 +151,10 @@ td > p {
     margin: 0;
 }
 
-#icon_description {
+.icon {
     display: none;
 }
-#icon_description:checked + label {
+.icon:checked + label {
     z-index: 16;
     width: 80px;
     height: 22px;
@@ -162,165 +162,11 @@ td > p {
     cursor: pointer;
     display: block;
 }
-#icon_description:checked + label + div {
+.icon:checked + label + div {
     left: 80px;
     background-color: black;
 }
-#icon_description + label + div {
-    background: black;
-}
-
-#icon_1st {
-    display: none;
-}
-#icon_1st:checked + label {
-    z-index: 16;
-    width: 80px;
-    height: 22px;
-    position: relative;
-    cursor: pointer;
-    display: block;
-}
-#icon_1st:checked + label + div {
-    left: 80px;
-    background-color: black;
-}
-#icon_1st + label + div {
-    background: black;
-}
-
-#icon_1-5 {
-    display: none;
-}
-#icon_1-5:checked + label {
-    z-index: 16;
-    width: 80px;
-    height: 22px;
-    position: relative;
-    cursor: pointer;
-    display: block;
-}
-#icon_1-5:checked + label + div {
-    left: 80px;
-    background-color: black;
-}
-#icon_1-5 + label + div {
-    background: black;
-}
-
-
-#icon_2nd {
-    display: none;
-}
-#icon_2nd:checked + label {
-    z-index: 16;
-    width: 80px;
-    height: 22px;
-    position: relative;
-    cursor: pointer;
-    display: block;
-}
-#icon_2nd:checked + label + div {
-    left: 80px;
-    background-color: black;
-}
-#icon_2nd + label + div {
-    background: black;
-}
-
-#icon_2-5 {
-    display: none;
-}
-#icon_2-5:checked + label {
-    z-index: 16;
-    width: 80px;
-    height: 22px;
-    position: relative;
-    cursor: pointer;
-    display: block;
-}
-#icon_2-5:checked + label + div {
-    left: 80px;
-    background-color: black;
-}
-#icon_2-5 + label + div {
-    background: black;
-}
-
-
-#icon_3rd {
-    display: none;
-}
-#icon_3rd:checked + label {
-    z-index: 16;
-    width: 80px;
-    height: 22px;
-    position: relative;
-    cursor: pointer;
-    display: block;
-}
-#icon_3rd:checked + label + div {
-    left: 80px;
-    background-color: black;
-}
-#icon_3rd + label + div {
-    background: black;
-}
-
-#icon_4th {
-    display: none;
-}
-#icon_4th:checked + label {
-    z-index: 16;
-    width: 80px;
-    height: 22px;
-    position: relative;
-    cursor: pointer;
-    display: block;
-}
-#icon_4th:checked + label + div {
-    left: 80px;
-    background-color: black;
-}
-#icon_4th + label + div {
-    background: black;
-}
-
-#icon_hyper {
-    display: none;
-}
-#icon_hyper:checked + label {
-    z-index: 16;
-    width: 80px;
-    height: 22px;
-    position: relative;
-    cursor: pointer;
-    display: block;
-}
-#icon_hyper:checked + label + div {
-    left: 80px;
-    background-color: black;
-}
-#icon_hyper + label + div {
-    background: black;
-}
-
-#icon_5th {
-    display: none;
-}
-#icon_5th:checked + label {
-    z-index: 16;
-    width: 80px;
-    height: 22px;
-    position: relative;
-    cursor: pointer;
-    display: block;
-}
-#icon_5th:checked + label + div {
-    left: 80px;
-    background-color: black;
-}
-#icon_5th + label + div {
+.icon + label + div {
     background: black;
 }
 
@@ -334,7 +180,7 @@ td > p {
     height: 40px;
     position: relative;
     cursor: pointer;
-    top: -8%;
+    top: -7.6%;
     left: 88%;
 }
 
@@ -368,7 +214,7 @@ button {
     font-family: "nanum";
     cursor: pointer;
     border: 0;
-    position: absolute;
+    position: fixed;
     left: 88%;
     top: 88%;
     box-shadow: 0 4px 16px rgb(0, 0, 0);

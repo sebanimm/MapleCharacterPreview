@@ -4,90 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../Onclick/Default.css">
+    <link rel="stylesheet" href="./Default.css">
     <link rel="stylesheet" href="../Backgrounds/Illium.css">
+    <script src="./Default.js"></script>
     <title>일리움 미리보기</title>
 </head>
 <body>
     <div class="container">
         <nav>
-            <input type="checkbox" id="icon_description">
+            <input type="checkbox" id="icon_description" class="icon" name="sidebar_icons" onclick="onlyOneSidebar(this)">
             <label for="icon_description">
                 <div>일리움</div>
             </label>
             <div class="sidebar">
                 <h2>광휘의 날개, 일리움</h2>
+                <input type="checkbox" name="quit_icon" id="sidebar_quit" onclick="quitSidebar(this)"> 
+                <label for="sidebar_quit">
+                    <span></span>
+                    <span></span>
+                </label>
                 <p>그란디스의 우든레프 종족인 일리움은 기계를 다루는 능력은 뛰어나지만 레프 종족 특유의 마법 능력은 없었습니다. 우연한 계기로 마법 능력에 눈을 뜨고 고대 크리스탈을 얻게 되어 종족의 미래를 짊어지게 됩니다.</p><br>
                 <p>일리움의 고대 크리스탈은 각종 마법과 공명하며 전투 능력을 최고수준으로 끌어 올립니다. 글로리윙 모드에 돌입하면 자유자재로 비행하며 강력한 공격을 펼칩니다.</p>
             </div>
-            <input type="checkbox" id="icon_default">
-            <label for="icon_default">
-                <div>●</div>
-            </label>
-            <div class="sidebar">
-                <h2>기본 - 일리움</h2>
-                <table>
-                    <thead>
-                        <tr>
-                            <th class="skill_icon">스킬</th>
-                            <th class="skill_description">설명</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>
-                                <img class="skill" src="../icons/Adele/아델_0차_리비지테이션.png">
-                                <p>리비지테이션 - 액티브</p>
-                            </td>
-                            <td>
-                                <p>예술의 도시, 리스토니아를 재방문한다.</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <img class="skill" src="../icons/Adele/아델_0차_매직_서킷.png">
-                                <p>매직 서킷 - 패시브</p>
-                            </td>
-                            <td>
-                                <p>무기를 제외한 착용 중인 장비의 마력 중 일부를 공격력으로 전환한다.</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <img class="skill" src="../icons/Adele/아델_0차_패이스.png">
-                                <p>패이스 - 패시브</p>
-                            </td>
-                            <td>
-                                <p>크리티컬 데미지, 공격력이 증가한다.</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <img class="skill" src="../icons/Adele/아델_0차_익스클루시브_스펠.png">
-                                <p>익스클루시브 스펠 - 액티브</p>
-                            </td>
-                            <td>
-                                <p>주변 모두의 공격력/마력이 일정 시간동안 증가한다.</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <img class="skill" src="../icons/Adele/아델_링크_노블레스.png">
-                                <p>노블레스 - 패시브</p>
-                            </td>
-                            <td>
-                                <p><b>아델의 링크 스킬.</b> 보스 공격 시 데미지가 증가하며, 파티원 수에 비례하여 더욱 증가한다.</p>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <input type="checkbox" id="icon_1st">
+            <input type="checkbox" id="icon_1st" class="icon" name="sidebar_icons" onclick="onlyOneSidebar(this)">
             <label for="icon_1st">
                 <div>I</div>
             </label>
             <div class="sidebar">
                 <h2>1차 전직 - 일리움</h2>
+                <input type="checkbox" name="quit_icon" id="sidebar_quit" onclick="quitSidebar(this)"> 
+                <label for="sidebar_quit">
+                    <span></span>
+                    <span></span>
+                </label>
                 <table>
                     <thead>
                         <tr>
@@ -144,12 +93,17 @@
                     </tbody>
                 </table>
             </div>
-            <input type="checkbox" id="icon_2nd">
+            <input type="checkbox" id="icon_2nd" class="icon" name="sidebar_icons" onclick="onlyOneSidebar(this)">
             <label for="icon_2nd">
                 <div>II</div>
             </label>
             <div class="sidebar">
                 <h2>2차 전직 - 일리움</h2>
+                <input type="checkbox" name="quit_icon" id="sidebar_quit" onclick="quitSidebar(this)"> 
+                <label for="sidebar_quit">
+                    <span></span>
+                    <span></span>
+                </label>
                 <table>
                     <thead>
                         <tr>
@@ -260,12 +214,17 @@
                     </tbody>
                 </table>
             </div>
-            <input type="checkbox" id="icon_3rd">
+            <input type="checkbox" id="icon_3rd" class="icon" name="sidebar_icons" onclick="onlyOneSidebar(this)">
             <label for="icon_3rd">
                 <div>III</div>
             </label>
             <div class="sidebar">
                 <h2>3차 전직 - 일리움</h2>
+                <input type="checkbox" name="quit_icon" id="sidebar_quit" onclick="quitSidebar(this)"> 
+                <label for="sidebar_quit">
+                    <span></span>
+                    <span></span>
+                </label>
                 <table>
                     <thead>
                         <tr>
@@ -349,12 +308,17 @@
                     </tbody>
                 </table>
             </div>
-            <input type="checkbox" id="icon_4th">
+            <input type="checkbox" id="icon_4th" class="icon" name="sidebar_icons" onclick="onlyOneSidebar(this)">
             <label for="icon_4th">
                 <div>IV</div>
             </label>
             <div class="sidebar">
                 <h2>4차 전직 - 일리움</h2>
+                <input type="checkbox" name="quit_icon" id="sidebar_quit" onclick="quitSidebar(this)"> 
+                <label for="sidebar_quit">
+                    <span></span>
+                    <span></span>
+                </label>
                 <table>
                     <thead>
                         <tr>
@@ -474,12 +438,17 @@
                     </tbody>
                 </table>
             </div>
-            <input type="checkbox" id="icon_hyper">
+            <input type="checkbox" id="icon_hyper" class="icon" name="sidebar_icons" onclick="onlyOneSidebar(this)">
             <label for="icon_hyper">
                 <div>Hyper</div>
             </label>
             <div class="sidebar">
                 <h2>하이퍼 스킬</h2>
+                <input type="checkbox" name="quit_icon" id="sidebar_quit" onclick="quitSidebar(this)"> 
+                <label for="sidebar_quit">
+                    <span></span>
+                    <span></span>
+                </label>
                 <table>
                     <thead>
                         <tr>
@@ -518,12 +487,17 @@
                     </tbody>
                 </table>
             </div>
-            <input type="checkbox" id="icon_5th">
+            <input type="checkbox" id="icon_5th" class="icon" name="sidebar_icons" onclick="onlyOneSidebar(this)">
             <label for="icon_5th">
                 <div>V</div>
             </label>
             <div class="sidebar">
                 <h2>5차 전직</h2>
+                <input type="checkbox" name="quit_icon" id="sidebar_quit" onclick="quitSidebar(this)"> 
+                <label for="sidebar_quit">
+                    <span></span>
+                    <span></span>
+                </label>
                 <table>
                     <thead>
                         <tr>
@@ -575,6 +549,7 @@
         <div class="character">
             <img src="../maple/Illium.png">
         </div>
+        <button onclick="history.back()">돌아가기</button>
     </div>
 </body>
 </html>
