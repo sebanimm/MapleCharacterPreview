@@ -19,6 +19,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'GongGothicMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 ::-webkit-scrollbar {
     display: none;
 }
@@ -182,6 +189,7 @@ td > p {
     cursor: pointer;
     top: -7.6%;
     left: 88%;
+    transition: .2s;
 }
 
 #sidebar_quit + label span {
@@ -203,11 +211,14 @@ td > p {
     transform:translateY(50%) rotate(-45deg);
 }
 
-button {
+#sidebar_quit + label:active {
+    transform: scale(1.3);
+}
+
+#previous_page {
     width: 150px;
     height: 50px;
-    background-color: black;
-    color: white;
+    background-color: white;
     font-size: 24px;
     border-radius: 28px;
     margin: auto;
@@ -215,18 +226,46 @@ button {
     cursor: pointer;
     border: 0;
     position: fixed;
+    border: 4px solid #6aafe6;
+    color: #534f4f;
     left: 88%;
     top: 88%;
-    box-shadow: 0 4px 16px rgb(0, 0, 0);
+    box-shadow: 0 15px 35px rgba(0, 0, 0,10);
     transition: 0.22s;
 }
 
-button:focus {
-    outline: 0;
+#previous_page:hover {
+    background-color: #6aafe6;
+    color: #43352b;
+    transform: scale(1.2);
+    transition: 0.22s;
 }
 
-button:hover {
-    background-color: rgb(62, 59, 59);
-    box-shadow: 0 4px 16px rgb(62, 59, 59);
-    transition: 0.22s;
+#previous_page:active {
+    transform: scale(1.4);
+    transition: .2s;
+}
+
+#nuking {
+    border: 0;
+    display: block;
+    margin: 50px auto;
+    text-align: center;
+    border-radius: 40px;
+    font-family: "GongGothicMedium";
+    font-size: 30px;
+    width: 220px;
+    height: 70px;
+    cursor: pointer;
+    background: linear-gradient(-45deg, #33ccff 0%, #ff99cc 100%);
+    color: white;
+    transition: .2s;
+}
+
+#nuking:hover {
+    transform: scale(1.2);
+}
+
+#nuking:active {
+    transform: scale(1.4);
 }

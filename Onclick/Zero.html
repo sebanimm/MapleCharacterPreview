@@ -26,6 +26,7 @@
                 <p>검은 마법사에 의해 봉인되기 전 시간의 여신이 탄생시킨 신의 아이입니다. 시간의 초월자가 될 운명을 갖고 있습니다.</p><br>
                 <p>서로 다른 무기와 공격 스타일을 가진 두 명의 제로를 함께 성장시키며, 전투 도중 캐릭터를 교체하여 공격하는 태그 시스템을 가지고 있습니다.</p><br>
                 <p>시간의 힘인 타임 포스를 사용하여 스킬을 사용하며, 스킬을 연계할수록 보다 화려하고 강력한 스킬을 사용할 수 있습니다.</p>
+                <button id="nuking" onclick="window.open('https://youtu.be/t6Hl_rd3yQk?t=840')">극딜 미리보기</button>
             </div>
             <input type="checkbox" id="icon_default" class="icon" name="sidebar_icons" onclick="onlyOneSidebar(this)">
             <label for="icon_default">
@@ -121,47 +122,143 @@
                     <tbody>
                         <tr>
                             <td>
-                                <img class="skill" src="../icons/Zero/아델_1차_플레인.png">
-                                <p>플레인 - 액티브</p>
+                                <img class="skill" src="../icons/Zero/제로_알파_문 스트라이크.png">
+                                <p>문 스트라이크 - 액티브</p>
                             </td>
                             <td>
-                                <p><b>아델의 1차 주력기.</b> 마력으로 이루어진 검을 생성하여 전방을 벤다.</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <img class="skill" src="../icons/Zero/아델_1차_샤드.png">
-                                <p>샤드 - 액티브</p>                                                                                                                                      4</p>
-                            </td>
-                            <td>
-                                <p><b>아델의 사출기.</b> 적을 추적하는 마력 조각을 생성한다.</p>
+                                <p><b>알파의 첫번째 콤비네이션 스킬.</b> 전방에 있는 적을 공격하여</p>
+                                <p><b>자신의 앞쪽으로 끌어온다.</b></p>
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <img class="skill" src="../icons/Zero/아델_1차_볼트.png">
-                                <p>볼트 - 액티브</p>
+                                <img class="skill" src="../icons/Zero/제로_알파_피어스 쓰러스트.png">
+                                <p>피어스 쓰러스트 - 액티브</p>
                             </td>
                             <td>
-                                <p>아델의 더블 점프.</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <img class="skill" src="../icons/Zero/아델_1차_레비테이션.png">
-                                <p>레비테이션 - 액티브</p>
-                            </td>
-                            <td>
-                                <p><b>아델의 체공기.</b> 마력을 방출하여 짧은 시간동안 체공한다.</p>
+                                <p><b>문 스트라이크의 후속 연계기.</b> 전방으로 적을 향해</p>
+                                <p>태도를 찔러 <b>밀어버린다.</b></p>
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <img class="skill" src="../icons/Zero/아델_1차_루디먼트.png">
-                                <p>루디먼트 - 패시브</p>
+                                <img class="skill" src="../icons/Zero/제로_알파_쉐도우 스트라이크.png">
+                                <p>쉐도우 스트라이크 - 액티브</p>
                             </td>
                             <td>
-                                <p>전체적인 능력치가 증가한다.</p>
+                                <p><b>피어스 쓰러스트의 후속 연계기.</b> 전방의 적을 베고,</p>
+                                <p>검기를 발생시킨다. 방향키와 함께 사용 시</p>
+                                <p><b>적에게 순간이동</b>하여 공격한다.</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img class="skill" src="../icons/Zero/제로_알파_플래시 어썰터.png">
+                                <p>플래시 어썰터 - 액티브</p>
+                            </td>
+                            <td>
+                                <p><b>알파의 두번째 콤비네이션 스킬. 전방으로 순간이동</b>하여</p>
+                                <p>경로 내 적들에게 데미지를 준다.</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img class="skill" src="../icons/Zero/제로_알파_스핀 커터.png">
+                                <p>스핀 커터 - 액티브</p>
+                            </td>
+                            <td>
+                                <p><b>플래시 어썰터의 후속 연계기.</b> 빠르게 회전하며</p>
+                                <p>주변에 있는 적을 공격한다.</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img class="skill" src="../icons/Zero/제로_알파_어드밴스드 스핀 커터.png">
+                                <p>어드밴스드 스핀 커터 - 액티브</p>
+                            </td>
+                            <td>
+                                <p><b>스핀 커터의 강화 버전.</b> 양옆으로 관통하는</p>
+                                <p>검기를 발생시켜 추가로 공격한다.</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img class="skill" src="../icons/Zero/제로_알파_롤링 커브.png">
+                                <p>롤링 커브 - 액티브</p>
+                            </td>
+                            <td>
+                                <p><b>알파의 세번째 콤비네이션 스킬.</b> 전방으로 튀어 오르며</p>
+                                <p>경로 내 적들을 공격한다.</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img class="skill" src="../icons/Zero/제로_알파_어드밴스드 롤링 커브.png">
+                                <p>어드밴스드 롤링 커브 - 액티브</p>
+                            </td>
+                            <td>
+                                <p><b>롤링 커브의 강화 버전.</b> 사방을 관통하는 검기를 발생시켜</p> 
+                                <p>적을 추가로 공격한다.</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img class="skill" src="../icons/Zero/제로_알파_롤링 어썰터.png">
+                                <p>롤링 어썰터 - 액티브</p>
+                            </td>
+                            <td>
+                                <p><b>롤링 커브의 후속 연계기.</b> 전방으로 빠르게 회전하며</p>
+                                <p>이동하여 경로 내 적들을 밀면서 공격한다.</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img class="skill" src="../icons/Zero/제로_알파_어드밴스드 롤링 어썰터.png">
+                                <p>어드밴스드 롤링 어썰터 - 액티브</p>
+                            </td>
+                            <td>
+                                <p><b>롤링 커브의 강화 버전.</b> 위와 앞뒤로 관통하는</p> 
+                                <p>검기를 발생시켜 추가로 공격한다. </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img class="skill" src="../icons/Zero/제로_알파_윈드 커터.png">
+                                <p>윈드 커터 - 액티브</p>
+                            </td>
+                            <td>
+                                <p><b>알파의 4번째 콤비네이션 스킬.</b> 전방의 적들을 공격하며,</p> 
+                                <p>대상의 위치에 <b>소용돌이를 생성</b>시켜 추가로 공격한다</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img class="skill" src="../icons/Zero/제로_알파_롤링 어썰터.png">
+                                <p>윈드 스트라이크 - 액티브</p>
+                            </td>
+                            <td>
+                                <p><b>윈드 커터의 후속 연계기.</b> 전방의 적들을 공격하며</p>
+                                <p>범위 내에 있는 <b>소용돌이를 전방으로 보낸다.</b></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img class="skill" src="../icons/Zero/제로_알파_스톰 브레이크.png">
+                                <p>스톰 브레이크 - 액티브</p>
+                            </td>
+                            <td>
+                                <p><b>윈드 스트라이크의 후속 연계기.</b> 전방의 적들을 공격하며 소용돌이를</p> 
+                                <p>생성시켜 전방으로 보내 적에게 추가로 공격한다.</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img class="skill" src="../icons/Zero/제로_알파_어드밴스드 롤링 어썰터.png">
+                                <p>어드밴스드 스톰 브레이크 - 액티브</p>
+                            </td>
+                            <td>
+                                <p><b>스톰 브레이크의 강화 버전.</b> 소용돌이가 날아간 자리에</p> 
+                                <p><b>전기 지역</b>을 남기는 기능이 추가된다.</p>
                             </td>
                         </tr>
                     </tbody>
@@ -449,7 +546,7 @@
                 <img src="../maple/Zero_Beta.png">
             </div>            
         </div>
-        <button onclick="history.back()">돌아가기</button>
+        <button id="previous_page" onclick="history.back()">돌아가기</button>
     </div>
 </body>
 </html>

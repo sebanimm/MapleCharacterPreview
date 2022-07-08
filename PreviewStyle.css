@@ -1,19 +1,32 @@
 @font-face {
-    font-family: 'hannaair';
+    font-family: 'hannaAir';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/BMHANNAAir.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'maplebold';
+    font-family: 'mapleBold';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ROKAFSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts2201-3@1.0/ROKAFSansBold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 ::-webkit-scrollbar {
     display: none;
+}
+
+img {
+    display: block;
+    margin: 10px 50px;
+    width: 170px;
 }
 
 body::before {
@@ -43,9 +56,8 @@ body::before {
 .container > p {
     text-align: center;
     color:white;
-    padding:0 0 0 16.5px;
     font-size: 50px;
-    font-family: "maplebold";
+    font-family: "mapleBold";
 }
 
 .container > h1 {
@@ -53,7 +65,16 @@ body::before {
     text-align: center;
     margin:0;
     padding:5px 0 0 11.5px;
-    font-family: "hannaair";
+    font-family: "hannaAir";
+}
+
+.container > h3 {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin: 20px 0 10px 0;
+    cursor: pointer;
+    font-family: "ROKAFSansBold"; 
 }
 
 .character {
