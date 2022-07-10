@@ -23,12 +23,6 @@
     display: none;
 }
 
-img {
-    display: block;
-    margin: 10px 50px;
-    width: 170px;
-}
-
 body::before {
     position: fixed;
     background-size: cover;
