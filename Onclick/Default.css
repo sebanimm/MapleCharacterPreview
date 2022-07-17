@@ -95,6 +95,18 @@ body::before {
     font-family: "nanum";
 }
 
+.skill-bundle {
+    width: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.skill-bundle + p {
+    margin: 0;
+}
+
 img {
     width: 500px;
 }
