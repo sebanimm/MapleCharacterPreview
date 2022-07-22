@@ -79,12 +79,13 @@ body::before {
     border: 6px solid rgb(65,65,65);
     box-sizing: border-box;
     overflow: hidden;
+    cursor: pointer;
     transform: skewX(-5deg);
     filter: brightness(60%);
     transition: transform .2s, filter .2s;
 }
 
-.character:hover {
+.container .character:hover {
     transform: skewX(-5deg) scale(1.3);
     z-index: 1;
     filter: brightness(100%);
